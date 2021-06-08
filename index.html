@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="date" content="29/05/2021">
+	<meta name="idea création date" content="18/">
+	<meta name="copyright" content="Pikseru kouwa">
+	<meta name="description" content="Le nouveau site de télechargement d'images de libre droit ">
+	<meta name="keywords" content="image ,libre de droit ,download">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="generator" content="sublime text">
+	<meta name="publisher" content="Pikseru kouwa">
+	<title>Pikseru'gazo</title>
+	<link rel="stylesheet" type="text/css" href="\fr-help\css\header.css">
+	<link rel="stylesheet" type="text/css" href="\fr-help\css\base.css">
+	<link rel="stylesheet" type="text/css" href="\fr-help\css\heart.css">
+	<link rel="stylesheet" type="text/css" href="\fr-help\css\footer.css">
+	<!-- link de bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+	<!-- fin de link de bootstrap -->
+	<!-- Link favicon -->
+<link rel="apple-touch-icon" sizes="180x180" href="file:///C:/Users/jihad/OneDrive/Documents/GitHub/fr/image/apple-touch-icon-removebg-preview.png">
+<link rel="icon" type="image/png" sizes="32x32" href="file:///C:/Users/jihad/OneDrive/Documents/GitHub/fr/image/android-chrome-192x192-removebg-preview.png">
+<link rel="manifest" href="/site.webmanifest">
+	<!-- font police de text -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Langar&family=Lato:ital@1&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Langar&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+		<!-- fin font police de text -->
+		<!-- icon  -->
+		<script src="https://kit.fontawesome.com/3ce71fcd16.js" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="font-awesome.min.css">
+		<!-- fin icon -->
+		<!-- css -->
+		<style type="text/css">
+@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Staatliches&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Mitr&family=Source+Code+Pro&family=Staatliches&display=swap');
+  
+  .heart {
+    margin-top: 100px;
+   margin-left: 5px;
+  }
+
+ *, ::before, ::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body > *:not(.truc){
+  padding-left: calc(20vw - 150px);
+  padding-right: calc(20vw - 150px);
+  font-family: "Poppins", sans-serif;
+}
+
+.my-menu {
+  background: transparent;
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  font-weight: 400;
+  display: flex;
+  justify-content: flex-start;
+  padding: 15px 0px;
+  background-color: rgba(0, 0, 0, 0.8);
+  transition: top 0.3s;
+}
+
+.my-menu h2 {
+  color: #f1f1f1;
+  font-size: 15px;
+  padding-right: 15px;
+}
+
+.my-menu > ul {
+  align-items: center;
+  display: flex;
+  width: 100%;
+}
+
+.my-menu li {
+  display: inline-flex;
+  margin: 0 14px;
+}
+
+.my-menu a {
+  color: #dfdfe2;
+  position: relative;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 auto;
+  font-size: 15px;
+}
+
+.accueil {
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  background-color: #FF3CAC;
+  background-image: linear-gradient( 135.9deg,  rgba(109,25,252,1) 16.4%, rgba(125,31,165,1) 56.1% );
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+.hero-bg {
+  max-width: 40%;
+}
+
+.my-name {
+  max-width: 50%;
+}
+
+.my-name-title {
+  font-size: 50px;
+  font-weight: 600;
+  color: #f1f1f1;
+  margin: 12px 0;
+}
+
+.my-name-p {
+  margin: 12px 0;
+  color: #dfdfe2;
+}
+
+.btn {
+  text-decoration: none;
+  color: #f1f1f1;
+  background-color:#EA5455;
+  border: 3px solid #EA5455;
+  padding: 15px 30px;
+  border-radius: 5px;
+  text-align: center;
+  margin: 12px 0;
+  font-weight: 500;
+  display: inline-flex;
+  margin-right: 15px;
+}
+
+.second-btn{
+  border-radius: 5px;
+}
+
+.my-name > .btn:hover {
+    box-shadow: 0 5px 15px -10px rgb(31 18 53 / 60%);
+}
+
+@media screen and (min-width: 500px) and (max-width: 1024px){
+body > *:not(.truc) {
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+}
+
+@media screen and (max-width: 500px){
+  body > *:not(.truc) {
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+  
+  .accueil {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  
+  .my-menu h2{
+    font-size: 14px;
+  }
+  
+  .my-menu a{
+    font-size: 11px;
+  }
+  
+  .my-name {
+    min-width: 100%;
+  }
+  .my-name-title {
+    font-size: 35px;
+    margin: 0;
+  }
+  .my-name-p {
+    font-size: 16px;
+  }
+  .btn {
+    padding: 10px 25px;
+    margin: 12px 0;
+    font-weight: 500;
+    font-size: 15px;
+  }
+}
+
+.margin {
+  margin-top: 12px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.obj {
+  position: relative;
+}
+</style>
+</head>
+<body>
+<nav class="my-menu">
+      <h2><b>BeingRich.com</b></h2>
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Join us</a></li>
+        <li><a href="#">Support</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+
+<div class="margin"></div>
+<section class="accueil">
+        <div class="my-name">
+          <h1 class="my-name-title" >Salut à toi, <br>j'espére que tu viens de Tik&nbsp;Tok .</h1>
+          <p class="my-name-p">Moi je pense que la question elle est vite répondue. vue que c'est le seul lien ,que j'ai mis exclusivement de Tik Tok.</p>
+          <a class="btn" href="#">ok</a>
+          <a class="btn second-btn btn btn-outline-success" href="#">eh m'en fous </a>
+        </div>
+  
+  <img class="hero-bg" src="https://stories.freepiklabs.com/storage/12709/bitcoin-amico-1460.png">
+
+      </section>
+      <div class="container">
+        <p class="obj"> 
+          Le site de télechargement gratuit de droit d'image seras publier prochainement le 08/12/2022<br>Mais pas officiellement en n'espére que le Le site de télechargement gratuit de droit d'image <br>qu'on va abréger en le site P'G  l'abréviation de Pikesru'Gazo
+      </p>
+      <h1>Ne vous inquietez pas le style<br>de ce site n'est pas comme pikseru'gazo</h1>
+      </div>
+</body>
+</html>

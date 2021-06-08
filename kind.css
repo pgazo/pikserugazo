@@ -1,0 +1,33 @@
+.gradient {
+font-family: 'Nunito Sans' sans-serif;
+}
+
+
+.kind-mesure {
+	height: 50px;
+	margin-top: 5px;
+	width: 200px;
+	opacity: 0,45;
+	border-radius: 5px;
+}
+
+h4 {
+   
+   font-family: 'Nunito Sans' sans-serif;
+   color: #1b1b1b;
+}
+
+.color {
+  color: #fff;
+background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%); 
+}
+
+.size {
+	font-size: 5px;
+}
+
+.noncy {
+	display: inline;
+	overflow: hidden;
+}
